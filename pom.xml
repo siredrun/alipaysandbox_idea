@@ -46,6 +46,31 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!-- commons-logging -->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+        <!-- alipay-sdk-java
+            安装jar包命令：mvn install:install-file -Dfile=alipay-sdk-java20170324180803.jar
+            -DgroupId=com.alipay.api -DartifactId=alipay-sdk-java20170324180803 -Dversion=1.0.0 -Dpackaging=jar
+        -->
+        <dependency>
+            <groupId>com.alipay.api</groupId>
+            <artifactId>alipay-sdk-java20170324180803</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!-- jsp-api -->
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>2.3.3</version>
+            <!--<scope>provided</scope>-->
+        </dependency>
     </dependencies>
 
     <build>
